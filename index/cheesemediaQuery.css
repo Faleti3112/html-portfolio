@@ -1,0 +1,621 @@
+/* for mobile screen */
+@media only screen and (max-width: 600px){
+    .cheesecake{
+        background-image: url('../New Image/MAIN BG.png') !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+        padding-top: 2% !important;
+    }
+    .navbar{
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+    .navbar img{
+        width: 80px !important;
+        height: 80px !important;
+    }
+    .section{
+        display: flex !important;
+        gap: 15px !important;
+        border-radius: 9px !important;
+        padding: 10px !important;
+        font-size: 10px !important;
+        width: 195px !important;
+    }
+    .sign{
+        padding: 3px !important;
+        display: flex !important;
+        justify-content: center !important;
+        border-radius: 15px !important;
+        width: 60px !important;
+        font-size: 12px !important;
+        font-weight: bold;
+    }
+    .world{
+        /* display: flex; */
+        height: 23vh;
+        gap: 65px !important;
+    }
+    .world img{
+        width: 150px !important;
+        height: 150px !important;
+        margin-right: -12px !important;
+        margin-top: -40px !important;
+    }
+    .main{
+        padding-top: 5px !important;
+        /* width: 100%; */
+    }
+    .main p{
+        font-size: 6px !important;
+        padding-top: 7px !important;
+    }
+    h1{
+        font-size: 23px !important;
+        padding-top: 3% !important;
+        width: 300px !important;
+    }
+    .watch{
+        display: flex !important;
+        gap: 5px !important;
+        margin-top: -20px !important;
+    }
+    .start{
+        padding: 5px !important;
+        display: flex !important;
+        justify-content: center !important;
+        border-radius: 15px !important;
+        font-size: 10px !important;
+        width: 80px !important;
+    }
+    .demo{
+        padding: 5px !important;
+        display: flex !important;
+        justify-content: center !important;
+        border-radius: 15px !important;
+        font-size: 10px !important;
+        width: 80px !important;
+    }
+    
+    .cheese{
+        background-color: cornsilk;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+        padding-top: 5% !important;
+        display: flex !important;
+        /* align-items: center; */
+        height: 25vh;
+        gap: 20px !important;
+    }
+    .cheese img{
+        width: 200px !important;
+        height: 150px !important;
+        margin-top: -10% !important;
+    }
+    .love h2{
+        font-size: 18px !important;
+        padding-bottom: 1% !important;
+        padding-top: 3% !important;
+    }
+    .love h3{
+        font-size: 10px !important;
+        padding-bottom: 3% !important;
+    }
+    p{
+        font-size: 6px !important;
+        line-height: 7px !important;
+    }
+    h4{
+        font-size: 6px !important;
+        padding-bottom: 5% !important;
+        margin-top: -8% !important;
+    }
+    .read{
+        padding: 5px !important;
+        display: flex !important;
+        justify-content: center !important;
+        border-radius: 15px !important;
+        font-size: 10px !important;
+        width: 80px !important;
+        box-shadow: 0 3px !important;
+    }
+    
+    .ourmenu{
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+        height: 30vh !important;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .ourmenu h1{
+        font-size: 30px !important;
+        display: flex !important;
+        justify-content: center !important;
+        color: white;
+        padding-left: 8%;
+    }
+    .menu{
+        display: flex !important;
+        justify-content: center !important;
+        width: 350px !important;
+        height: 120px !important;
+        gap: 10px !important;
+        padding-top: 4% !important;
+    }
+    .blueberry, .biscoff, .chocolate{
+        padding: 5px !important;
+        padding-top: 3% !important;
+        align-items: center !important;
+        text-align: center !important;
+        justify-content: center !important;
+        font-size: 10px !important;
+        width: 90px !important;
+        line-height: 7px;
+    }
+    .blueberry img, .biscoff img, .chocolate img{
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .menu h3{
+        font-size: 8px !important;
+        padding-left: 2px !important;
+        padding-top: 3px !important;
+    }
+    .menu p{
+        font-size: 6px !important;
+        padding-left: 2px !important;
+    }
+    .price{
+        display: flex !important;
+        text-align: left !important;
+        padding-left: 2px !important;
+    }
+    .price h4{
+        font-size: 8px !important;
+        padding-top: 5px !important;
+    }
+    .price img{
+        width: 5px !important;
+        height: 5px !important;
+        gap: 6px !important;
+    }
+    .star{
+        display: flex !important;
+        padding-left: 15px !important;
+    }
+    .ourmenu h2{
+        text-align: right !important;
+        font-size: 10px !important;
+        padding-top: 2% !important;
+    }
+    
+    .ourblog{
+        height: 50vh !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+        padding-top: 3% !important;
+    }
+    .recent{
+        text-align: center !important;
+    }
+    .recent h2{
+        font-size: 30px !important;
+    }
+    .recent h3{
+        font-size: 12px !important;
+    }
+    .post{
+        display: flex !important;
+        width: 400px !important;
+        height: 240px !important;
+        gap: 10px !important;
+        padding-top: 3% !important; 
+        margin-left: -13.5% !important;
+    }
+    .blog1, .blog2, .blog3{
+        padding: 5px !important;
+        padding-top: 3% !important;
+        align-items: center !important;
+        text-align: centerm !important;
+        justify-content: center !important;
+        width: 1100px !important;
+        line-height: 13px !important;
+    }
+    .blog1 img, .blog2 img, .blog3 img{
+        width: 80px !important;
+        height: 80px !important;
+        border-radius: 10px !important;
+    }
+    .post h3, .post h2, .post p{
+        padding-left: 3px !important;
+        font-size: 7px !important;
+        padding-bottom: 3% !important;
+    }
+    .post h2{
+        font-size: 9px !important;
+    }
+    .post p{
+        font-size: 6px !important;
+    }
+    .post em{
+        font-size: 7px !important;
+        padding-top: 5% !important;
+    }
+    
+    .contact{
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+        height: 40vh !important; 
+        padding-top: 4% !important;
+        display: flex !important;
+        gap: 10px;
+    }
+    .us h2{
+        font-size: 18px !important;
+        padding-bottom: 1% !important;
+    }
+    .us p{
+        font-size: 6px !important;
+    }
+    .us img{
+        width: 120px !important;
+        height: 120px !important;
+    }
+    .icon{
+        display: flex !important;
+        gap: 20px;
+        padding-top: 3% !important;
+    }
+    .icon img{
+        width: 13px !important;
+        height: 13px !important;
+        border-radius: 30% !important;
+        padding: 2px !important;
+    }
+    .us h3{
+        font-size: 8px !important;
+        padding-top: 4% !important;
+    }
+    .message{
+        padding-top: 8% !important;
+    }
+    .text, .your{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+    .text > input, .now a{
+        height: 25px !important;
+        display: flex !important;
+        width: 150px !important;
+        border-radius: 20px !important;
+        font-size: 9px !important;
+        padding: 4% !important;
+        margin-top: 5% !important;
+    }
+    .your input{
+        height: 50px !important;
+        border-radius: 20px !important;
+        margin-top: 5% !important;
+        font-size: 9px !important;
+        border: none !important;
+    }
+    .now a{
+        justify-content: center !important;
+        text-align: center !important;
+        font-size: 9px !important;
+    }
+}
+
+/* for tablet screen */
+@media only screen and (min-width:601px) and (max-width:1024px){
+    .cheesecake{
+        background-image: url('../New Image/MAIN BG.png') !important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+        padding-top: 2% !important;
+    }
+    .navbar{
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+    .navbar img{
+        width: 110px !important;
+        height: 110px !important;
+    }
+    .section{
+        display: flex !important;
+        gap: 20px !important;
+        border-radius: 10px !important;
+        padding: 10px !important;
+        font-size: 15px !important;
+        width: 290px !important;
+    }
+    .sign{
+        padding: 5px !important;
+        display: flex !important;
+        justify-content: center !important;
+        border-radius: 15px !important;
+        width: 80px !important;
+        font-size: 15px !important;
+    }
+    .world{
+        /* display: flex; */
+        height: 20vh;
+        gap: 55px !important;
+    }
+    .world img{
+        width: 300px !important;
+        height: 300px !important;
+        margin-left: -50px !important;
+        margin-top: -70px !important;
+    }
+    .main{
+        padding-top: 5px !important;
+        /* width: 100%; */
+    }
+    .main p{
+        font-size: 10px !important;
+        padding-top: 9px !important;
+    }
+    h1{
+        font-size: 35px !important;
+        padding-top: 3% !important;
+        width: 400px !important;
+    }
+    .watch{
+        display: flex !important;
+        gap: 8px !important;
+        margin-top: -6px !important;
+    }
+    .start{
+        padding: 8px !important;
+        display: flex !important;
+        justify-content: center !important;
+        border-radius: 15px !important;
+        font-size: 13px !important;
+        width: 100px !important;
+    }
+    .demo{
+        padding: 8px !important;
+        display: flex !important;
+        justify-content: center !important;
+        border-radius: 15px !important;
+        font-size: 13px !important;
+        width: 100px !important;
+    }
+    
+    .cheese{
+        background-color: cornsilk;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+        padding-top: 5% !important;
+        display: flex !important;
+        /* align-items: center; */
+        height: 20vh;
+        gap: 40px !important;
+    }
+    .cheese img{
+        width: 200px !important;
+        height: 200px !important;
+        margin-top: -12% !important;
+    }
+    .love h2{
+        font-size: 30px !important;
+        padding-bottom: 1% !important;
+        margin-top: -2% !important;
+    }
+    .love h3{
+        font-size: 15px !important;
+        padding-bottom: 2% !important;
+    }
+    p{
+        font-size: 10px !important;
+        line-height: 14px !important;
+    }
+    h4{
+        font-size: 10px !important;
+        margin-top: -15px !important;
+    }
+    .read{
+        padding: 8px !important;
+        display: flex !important;
+        justify-content: center !important;
+        border-radius: 15px !important;
+        font-size: 13px !important;
+        width: 100px !important;
+        box-shadow: 0 3px !important;
+    }
+    
+    .ourmenu{
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+        height: 30vh !important;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .ourmenu h1{
+        font-size: 30px !important;
+        display: flex !important;
+        justify-content: center !important;
+        color: white;
+        /* padding-left: 8%; */
+    }
+    .menu{
+        display: flex !important;
+        justify-content: center !important;
+        width: 645px !important;
+        height: 200px !important;
+        gap: 20px !important;
+        padding-top: 4% !important;
+        /* padding-left: 80px !important; */
+    }
+    .blueberry, .biscoff, .chocolate{
+        padding: 8px !important;
+        padding-top: 3% !important;
+        align-items: center !important;
+        text-align: center !important;
+        justify-content: center !important;
+        font-size: 10px !important;
+        width: 180px !important;
+        line-height: 7px;
+    }
+    .blueberry img, .biscoff img, .chocolate img{
+        width: 60px !important;
+        height: 60px !important;
+    }
+    .menu h3{
+        font-size: 12px !important;
+        padding-left: 4px !important;
+        padding-top: 8px !important;
+    }
+    .menu p{
+        font-size: 9px !important;
+        padding-left: 4px !important;
+        padding-top: 5px !important;
+    }
+    .price{
+        display: flex !important;
+        text-align: left !important;
+        padding-left: 4px !important;
+        padding-top: 10px !important;
+    }
+    .price h4{
+        font-size: 12px !important;
+        padding-top: 15px !important;
+    }
+    .price img{
+        width: 7px !important;
+        height: 7px !important;
+        gap: 8px !important;
+    }
+    .star{
+        display: flex !important;
+        padding-left: 7em !important;
+    }
+    .ourmenu h2{
+        text-align: right !important;
+        font-size: 12px !important;
+        padding-top: 5% !important;
+        /* padding-right: 2%; */
+    }
+    
+    .ourblog{
+        height: 35vh !important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+        padding-top: 3% !important;
+    }
+    .recent{
+        text-align: center !important;
+    }
+    .recent h2{
+        font-size: 30px !important;
+    }
+    .recent h3{
+        font-size: 12px !important;
+    }
+    .post{
+        display: flex !important;
+        width: 600px !important;
+        height: 280px !important;
+        gap: 10px !important;
+        padding-top: 3% !important; 
+        /* margin-left: -5% !important; */
+    }
+    .blog1, .blog2, .blog3{
+        padding: 5px !important;
+        padding-top: 3% !important;
+        align-items: center !important;
+        text-align: centerm !important;
+        justify-content: center !important;
+        width: 1100px !important;
+        line-height: 13px !important;
+    }
+    .blog1 img, .blog2 img, .blog3 img{
+        width: 100px !important;
+        height: 100px !important;
+        border-radius: 10px !important;
+    }
+    .post h3, .post h2, .post p{
+        padding-left: 5px !important;
+        font-size: 10px !important;
+        padding-bottom: 3% !important;
+    }
+    .post h2{
+        font-size: 12px !important;
+    }
+    .post p{
+        font-size: 8px !important;
+    }
+    .post em{
+        font-size: 7px !important;
+        padding-top: 5% !important;
+    }
+    
+    .contact{
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+        height: 30vh !important; 
+        padding-top: 4% !important;
+        display: flex !important;
+        gap: 40px;
+    }
+    .us h2{
+        font-size: 25px !important;
+        padding-bottom: 1% !important;
+    }
+    .us p{
+        font-size: 9px !important;
+    }
+    .us img{
+        width: 180px !important;
+        height: 180px !important;
+    }
+    .icon{
+        display: flex !important;
+        gap: 40px;
+        padding-top: 3% !important;
+    }
+    .icon img{
+        width: 19px !important;
+        height: 19px !important;
+        border-radius: 30% !important;
+        padding: 5px !important;
+    }
+    .us h3{
+        font-size: 10px !important;
+        padding-top: 4% !important;
+    }
+    .message{
+        padding-top: 8% !important;
+    }
+    .text, .your{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+    .text > input, .now a{
+        height: 28px !important;
+        display: flex !important;
+        width: 200px !important;
+        border-radius: 20px !important;
+        font-size: 10px !important;
+        padding: 4% !important;
+        margin-top: 5% !important;
+    }
+    .your input{
+        height: 55px !important;
+        border-radius: 20px !important;
+        margin-top: 5% !important;
+        font-size: 10px !important;
+        border: none !important;
+    }
+    .now a{
+        justify-content: center !important;
+        text-align: center !important;
+        font-size: 9px !important;
+    }
+}

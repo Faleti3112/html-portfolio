@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cheesecake{
+    background-image: url('../New Image/MAIN BG.png');
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 2%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar img{
+    width: 100px;
+    height: 100px;
+}
+.section{
+    display: flex;
+    gap: 70px;
+    background-color: rgba(110, 38, 38, 0.63);
+    border-radius: 9px;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: white;
+    width: 400px;
+}
+.sign{
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    color:  rgba(110, 38, 38, 0.63);
+    box-shadow: 0 0 0 1px;
+    border-radius: 18px;
+    font-size: 15px;
+    width: 90px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.world{
+    display: flex;
+    height: 70vh;
+    gap: 50px;
+}
+.world img{
+    width: 600px;
+    height: 600px;
+    margin-left: -150px;
+    margin-top: -110px;
+}
+.main{
+    padding-top: 5px;
+    /* width: 100%; */
+}
+.main p{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 20px;
+    line-height: 20px;
+    color:rgba(110, 38, 38, 0.705);
+}
+h1{
+    font-family: sans-serif;
+    font-size: 55px;
+    padding-top: 5%;
+    color: rgba(36, 11, 11, 0.795);
+    width: 650px;
+}
+.watch{
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+.start{
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(110, 38, 38, 0.63);
+    border-radius: 18px;
+    font-size: 10px;
+    width: 110px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.demo{
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    color:  rgba(110, 38, 38, 0.63);
+    box-shadow: 0 0 0 1px;
+    border-radius: 18px;
+    font-size: 10px;
+    width: 110px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.cheese{
+    background-color: cornsilk;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 5%;
+    display: flex;
+    /* align-items: center; */
+    height: 65vh;
+    gap: 110px;
+}
+.cheese img{
+    width: 500px;
+    height: 400px;
+    margin-top: -10%;
+}
+.love h2{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: monospace;
+    padding-bottom: 1%;
+    padding-top: 3%;
+}
+.love h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-bottom: 3%;
+}
+p{
+    font-size: 18px;
+    line-height: 20px;
+    padding-bottom: 3%;
+}
+h4{
+    font-size: 18px;
+    font-weight: lighter;
+    padding-bottom: 5%;
+}
+.read{
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    color:  white;
+    background-color:  rgba(110, 38, 38, 0.63);
+    border-radius: 18px;
+    font-size: 10px;
+    width: 110px;
+    font-weight: bold;
+    font-family: sans-serif;
+    box-shadow: 0 7px;
+}
+
+.ourmenu{
+    background-color:  rgba(59, 23, 23, 0.877);
+    padding-left: 15rem;
+    padding-right: 10rem;
+    height: 70vh;
+    /* justify-content: center;
+    align-items: center; */
+}
+.ourmenu h1{
+    font-size: 50px;
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding-left: 12rem;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    width: 850px;
+    height: 250px;
+    gap: 50px;
+    padding-top: 4%;
+}
+.blueberry, .biscoff, .chocolate{
+    padding: 8px;
+    padding-top: 3%;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    background-color:  rgba(245, 222, 179, 0.726);
+    border-radius: 18px;
+    color: black;
+    font-size: 10px;
+    width: 500px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.blueberry img, .biscoff img, .chocolate img{
+    width: 100px;
+    height: 100px;
+}
+.menu h3{
+    text-align: left;
+    font-size: 15px;
+    padding-left: 5px;
+}
+.menu p{
+    font-size: 10px;
+    text-align: left;
+    padding-left: 5px;
+    font-weight: lighter;
+}
+.price{
+    display: flex;
+    text-align: left;
+    padding-left: 5px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.price img{
+    width: 10px;
+    height: 10px;
+    gap: 10px;
+}
+.star{
+    padding-left: 40%;
+}
+.ourmenu h2{
+    text-align: right;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 4%;
+}
+
+.ourblog{
+    background-color: rgb(240, 235, 227);
+    height: 110vh;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-top: 3%;
+}
+.recent{
+    text-align: center;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(95, 57, 11, 0.733);
+}
+.recent h2{
+    font-size: 50px;
+}
+.recent h3{
+    font-size: 17px;
+}
+.post{
+    display: flex;
+    width: 800px;
+    height: 500px;
+    gap: 30px;
+    padding-top: 3%;
+    padding-left: 3rem;
+}
+.blog1, .blog2, .blog3{
+    padding: 8px;
+    padding-top: 3%;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    background-color:  rgba(184, 177, 160, 0.568);
+    border-radius: 18px;
+    color: black;
+    font-size: 10px;
+    width: 5000px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.blog1 img, .blog2 img, .blog3 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+.post h3, .post h2, .post p{
+    text-align: left;
+    padding-left: 3px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgba(184, 126, 55, 0.692);
+    padding-bottom: 3%;
+}
+.post h2{
+    font-size: 15px;
+    color: rgb(129, 80, 21);
+}
+.post p{
+    font-size: 10px;
+    color: rgba(129, 80, 21, 0.651);
+}
+
+.contact{
+    background-color:  rgba(59, 23, 23, 0.877);
+    padding-left: 10rem;
+    padding-right: 10rem;
+    height: 102vh; 
+    padding-top: 4%;
+    color: white;
+    display: flex;
+    gap: 10rem;
+}
+.us h2{
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 2%;
+}
+.us p{
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: lighter;
+
+}
+.us img{
+    width: 300px;
+    height: 300px;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    padding-top: 3%;
+}
+.icon img{
+    width: 30px;
+    height: 30px;
+    background: white; 
+    border-radius: 30%;
+    padding: 8px;
+}
+.icon .facebook{
+    background: blue;
+}
+.us h3{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+    padding-top: 4%;
+}
+.message{
+    padding-top: 8%;
+}
+.text, .your{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.text > input, .now a{
+    height: 50px;
+    display: flex;
+    width: 450px;
+    border-radius: 30px;
+    padding: 3%;
+    border: none;
+    outline: none;
+    margin-top: 5%;
+}
+.your input{
+    height: 100px;
+    border-radius: 20px;
+    margin-top: 5%;
+    border: none;
+}
+.now a{
+    background: rgba(255, 255, 0, 0.493);
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+}
